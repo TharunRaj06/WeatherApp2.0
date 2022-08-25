@@ -7,11 +7,11 @@ This is a weatherApp with the data of current data and also with the real-time G
 
 It shows the following:
 
-Current weather 
-Humidity
-SunRise time 
-Sunset time 
-clouds data
+Current weather,
+Humidity,
+SunRise time, 
+Sunset time ,
+clouds data,
 WindSpeed
 
 

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather app</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script  src="./script.js" defer></script>
+  </head>
+  <body>
+    <iframe
+      src="https://www.google.com/maps/embed/v1/search?key=AIzaSyCMgQ1OOZS1zes8V8JuDHJ9hR00T1Is-5A&maptype=satellite&zoom=12&q=angallu"
+      width="800"
+      id="iframe"
+      height="600"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    <div class="searchContainer">
+      <input
+        id="input"
+        type="text"
+        placeholder="search place"
+      />
+      <button id="btn">search</button>
+      <h1 id="weatherValue"></h1>
+      <h5 id="weatherLocation"></h5>
+      <div class="decription">
+        <h4 id="weatherDescription"></h4>
+      </div>
+    </div>
+    <div class="otherWeatherFeatures">
+      <div class="windspeed">
+        <h3>wind speed</h3>
+        <img src="./icons/wind.png" alt="" />
+        <h2 id="windSpeed"></h2>
+      </div>
+      <div class="clouds">
+        <h3>clouds</h3>
+        <img src="./icons/cloud.png" alt="" />
+        <h2 id="clouds"></h2>
+      </div>
+      <div class="sunRise">
+        <h3>sunrise</h3>
+        <img src="./icons/sunrise.png" alt="" />
+        <h3 id="sunrise"></h3>
+      </div>
+      <div class="sunSet">
+        <h3>sunset</h3>
+        <img src="./icons/sunset.png" alt="" />
+        <h3 id="sunset"></h3>
+      </div>
+      </div>
+    </div>
+    <div class="humidity">
+      <h3>humidity</h3>
+      <img src="./icons/humidity.png" alt="" />
+      <h2 id="humidity"></h2>
+    </div>
+  </body>
+</html>
